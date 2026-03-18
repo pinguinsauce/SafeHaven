@@ -1,0 +1,26 @@
+[
+  {
+    "id": "soulseek",
+    "title": "Soulseek",
+    "description": "P2P network for music sharing.",
+    "url": "https://www.slsknet.org/",
+    "category": "P2P",
+    "thumbnail": "https://picsum.photos/seed/soulseek/400/300"
+  },
+  {
+    "id": "bandcamp",
+    "title": "Bandcamp",
+    "description": "Support artists directly (with some free downloads).",
+    "url": "https://bandcamp.com/",
+    "category": "Streaming",
+    "thumbnail": "https://picsum.photos/seed/bandcamp/400/300"
+  },
+  {
+    "id": "khinsider",
+    "title": "KHInsider",
+    "description": "Video game soundtracks.",
+    "url": "https://downloads.khinsider.com/",
+    "category": "Soundtracks",
+    "thumbnail": "https://picsum.photos/seed/khinsider/400/300"
+  }
+]

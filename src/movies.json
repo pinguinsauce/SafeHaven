@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1337x",
+    "title": "1337x",
+    "description": "Popular torrent site for movies, TV, and more.",
+    "url": "https://1337x.to/",
+    "category": "Torrents",
+    "thumbnail": "https://picsum.photos/seed/1337x/400/300"
+  },
+  {
+    "id": "yts",
+    "title": "YTS",
+    "description": "High-quality movie torrents in small file sizes.",
+    "url": "https://yts.mx/",
+    "category": "Torrents",
+    "thumbnail": "https://picsum.photos/seed/yts/400/300"
+  },
+  {
+    "id": "rarbg",
+    "title": "RARBG (Proxy)",
+    "description": "Reliable torrents for high-quality releases.",
+    "url": "https://rarbg.to/",
+    "category": "Torrents",
+    "thumbnail": "https://picsum.photos/seed/rarbg/400/300"
+  },
+  {
+    "id": "fmovies",
+    "title": "FMovies",
+    "description": "Streaming site for movies and TV shows.",
+    "url": "https://fmovies.to/",
+    "category": "Streaming",
+    "thumbnail": "https://picsum.photos/seed/fmovies/400/300"
+  },
+  {
+    "id": "lookmovie",
+    "title": "LookMovie",
+    "description": "Watch movies and TV shows in HD.",
+    "url": "https://lookmovie2.to/",
+    "category": "Streaming",
+    "thumbnail": "https://picsum.photos/seed/lookmovie/400/300"
+  },
+  {
+    "id": "aniwave",
+    "title": "AniWave",
+    "description": "The best place to watch anime online.",
+    "url": "https://aniwave.to/",
+    "category": "Anime",
+    "thumbnail": "https://picsum.photos/seed/aniwave/400/300"
+  }
+]

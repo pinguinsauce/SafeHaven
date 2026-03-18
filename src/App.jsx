@@ -27,7 +27,7 @@ export default function App() {
                 <Gamepad2 className="w-6 h-6 text-black" />
               </div>
               <h1 className="text-xl font-bold tracking-tight hidden sm:block uppercase">
-                safe<span className="text-blue-500">haven</span>
+                Safe<span className="text-blue-500">haven</span>
               </h1>
             </div>
 
@@ -188,6 +188,7 @@ export default function App() {
                   title={selectedGame.title}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
+                  sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-forms allow-top-navigation"
                 />
               </div>
 
@@ -214,7 +215,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-2 mb-6">
             <Gamepad2 className="w-5 h-5 text-blue-500" />
-            <span className="font-bold tracking-widest text-sm uppercase">safehaven</span>
+            <span className="font-bold tracking-widest text-sm uppercase">Safehaven</span>
           </div>
           <p className="text-white/40 text-sm max-w-md mx-auto leading-relaxed">
             A curated collection of web games for your entertainment. 
