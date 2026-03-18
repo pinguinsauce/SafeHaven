@@ -1,44 +1,34 @@
 [
   {
-    "id": "2048",
-    "title": "2048",
-    "thumbnail": "https://picsum.photos/seed/2048/400/300",
-    "url": "https://play2048.co/"
+    "id": "fitgirl",
+    "title": "FitGirl Repacks",
+    "description": "Highly compressed game repacks.",
+    "url": "https://fitgirl-repacks.site/",
+    "category": "Repacks",
+    "thumbnail": "https://picsum.photos/seed/fitgirl/400/300"
   },
   {
-    "id": "flappy-bird",
-    "title": "Flappy Bird",
-    "thumbnail": "https://picsum.photos/seed/flappy/400/300",
-    "url": "https://flappybird.io/"
+    "id": "dodi",
+    "title": "DODI Repacks",
+    "description": "Another popular game repack site.",
+    "url": "https://dodi-repacks.site/",
+    "category": "Repacks",
+    "thumbnail": "https://picsum.photos/seed/dodi/400/300"
   },
   {
-    "id": "tetris",
-    "title": "Tetris",
-    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
-    "url": "https://tetris.com/play-tetris"
+    "id": "steamunlocked",
+    "title": "SteamUnlocked",
+    "description": "Pre-installed games for free.",
+    "url": "https://steamunlocked.net/",
+    "category": "DDL",
+    "thumbnail": "https://picsum.photos/seed/steamunlocked/400/300"
   },
   {
-    "id": "snake",
-    "title": "Snake",
-    "thumbnail": "https://picsum.photos/seed/snake/400/300",
-    "url": "https://www.google.com/logos/2010/pacman10-i.html"
-  },
-  {
-    "id": "dino-run",
-    "title": "Dino Run",
-    "thumbnail": "https://picsum.photos/seed/dino/400/300",
-    "url": "https://chromedino.com/"
-  },
-  {
-    "id": "sudoku",
-    "title": "Sudoku",
-    "thumbnail": "https://picsum.photos/seed/sudoku/400/300",
-    "url": "https://www.websudoku.com/"
-  },
-  {
-    "id": "hammer-play",
-    "title": "Hammer Play",
-    "thumbnail": "https://picsum.photos/seed/hammer/400/300",
-    "url": "https://hammerplay.cdn.msnfun.com/9ng6vdg4354c/v28/index.html?msstart_sdk_init=eyJwYXJlbnRPcmlnaW4iOiJodHRwczovL3d3dy5tc24uY29tIiwiY2xpZW50SWQiOiIwQUI2OTEyNDVDMzA2RkI0MTJGRDg2MDQ1REI5NkVGRCIsImxvY2FsZSI6ImVuLXVzIiwiZW50cnlQb2ludElkIjoiIiwic3dpdGNoR2FtZVBheWxvYWQiOnsic3dpdGNoZWRUbyI6IjluZzZ2ZGc0MzU0YyIsInZhbHVlIjp7fX19"
+    "id": "gog-games",
+    "title": "GOG Games",
+    "description": "DRM-free games from GOG.",
+    "url": "https://gog-games.to/",
+    "category": "DRM-Free",
+    "thumbnail": "https://picsum.photos/seed/gog/400/300"
   }
 ]
