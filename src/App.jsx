@@ -17,29 +17,29 @@ export default function App() {
   );
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-emerald-500/30">
+    <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-blue-600/30">
       {/* Header */}
       <header className="sticky top-0 z-40 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
-              <div className="bg-emerald-500 p-1.5 rounded-lg">
+              <div className="bg-blue-600 p-1.5 rounded-lg">
                 <Gamepad2 className="w-6 h-6 text-black" />
               </div>
               <h1 className="text-xl font-bold tracking-tight hidden sm:block uppercase">
-                safe<span className="text-emerald-500">haven</span>
+                safe<span className="text-blue-500">haven</span>
               </h1>
             </div>
 
             <div className="flex-1 max-w-md mx-4">
               <div className="relative group">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40 group-focus-within:text-emerald-500 transition-colors" />
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40 group-focus-within:text-blue-500 transition-colors" />
                 <input
                   type="text"
                   placeholder="Search games..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-white/5 border border-white/10 rounded-xl py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all placeholder:text-white/20"
+                  className="w-full bg-white/5 border border-white/10 rounded-xl py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all placeholder:text-white/20"
                 />
               </div>
             </div>
@@ -78,11 +78,11 @@ export default function App() {
               transition={{ duration: 1, ease: "easeOut" }}
               className="relative inline-block"
             >
-              <h2 className="text-5xl md:text-[9rem] font-black mb-4 tracking-tighter uppercase leading-none text-white drop-shadow-[0_0_40px_rgba(16,185,129,0.4)]">
-                free<span className="text-emerald-500">dom</span>
+              <h2 className="text-5xl md:text-[9rem] font-black mb-4 tracking-tighter uppercase leading-none text-white drop-shadow-[0_0_40px_rgba(37,99,235,0.4)]">
+                free<span className="text-blue-500">dom</span>
               </h2>
               {/* Subtle glow behind text */}
-              <div className="absolute inset-0 bg-emerald-500/10 blur-[120px] -z-10 rounded-full" />
+              <div className="absolute inset-0 bg-blue-600/10 blur-[120px] -z-10 rounded-full" />
             </motion.div>
             
             <motion.p 
@@ -107,7 +107,7 @@ export default function App() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 0.05 }}
               whileHover={{ y: -5 }}
-              className="group relative bg-[#151515] rounded-2xl overflow-hidden border border-white/5 hover:border-emerald-500/50 transition-all cursor-pointer shadow-xl"
+              className="group relative bg-[#151515] rounded-2xl overflow-hidden border border-white/5 hover:border-blue-500/50 transition-all cursor-pointer shadow-xl"
               onClick={() => setSelectedGame(game)}
             >
               <div className="aspect-[4/3] overflow-hidden relative">
@@ -118,13 +118,13 @@ export default function App() {
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <div className="bg-emerald-500 p-3 rounded-full transform translate-y-4 group-hover:translate-y-0 transition-transform">
+                  <div className="bg-blue-600 p-3 rounded-full transform translate-y-4 group-hover:translate-y-0 transition-transform">
                     <Play className="w-6 h-6 text-black fill-current" />
                   </div>
                 </div>
               </div>
               <div className="p-4">
-                <h3 className="font-bold text-sm truncate group-hover:text-emerald-500 transition-colors uppercase tracking-wider">
+                <h3 className="font-bold text-sm truncate group-hover:text-blue-500 transition-colors uppercase tracking-wider">
                   {game.title}
                 </h3>
                 <p className="text-xs text-white/40 mt-1">Web Game</p>
@@ -158,8 +158,8 @@ export default function App() {
               {/* Modal Header */}
               <div className="flex items-center justify-between px-6 py-4 border-b border-white/5 bg-[#151515]">
                 <div className="flex items-center gap-3">
-                  <div className="bg-emerald-500/10 p-2 rounded-lg">
-                    <Gamepad2 className="w-5 h-5 text-emerald-500" />
+                  <div className="bg-blue-600/10 p-2 rounded-lg">
+                    <Gamepad2 className="w-5 h-5 text-blue-500" />
                   </div>
                   <h2 className="font-bold text-lg tracking-tight uppercase">{selectedGame.title}</h2>
                 </div>
@@ -199,7 +199,7 @@ export default function App() {
                   <span>GENRE: ARCADE</span>
                 </div>
                 <div className="flex gap-2">
-                  <span className="px-2 py-1 bg-emerald-500/10 text-emerald-500 rounded text-[10px] font-bold uppercase tracking-widest">
+                  <span className="px-2 py-1 bg-blue-600/10 text-blue-500 rounded text-[10px] font-bold uppercase tracking-widest">
                     Verified Safe
                   </span>
                 </div>
@@ -213,7 +213,7 @@ export default function App() {
       <footer className="border-t border-white/5 py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-2 mb-6">
-            <Gamepad2 className="w-5 h-5 text-emerald-500" />
+            <Gamepad2 className="w-5 h-5 text-blue-500" />
             <span className="font-bold tracking-widest text-sm uppercase">safehaven</span>
           </div>
           <p className="text-white/40 text-sm max-w-md mx-auto leading-relaxed">
@@ -221,9 +221,9 @@ export default function App() {
             All games are property of their respective owners.
           </p>
           <div className="mt-8 flex justify-center gap-8 text-xs font-medium text-white/20">
-            <a href="#" className="hover:text-emerald-500 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-emerald-500 transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-emerald-500 transition-colors">Contact Us</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Contact Us</a>
           </div>
         </div>
       </footer>
