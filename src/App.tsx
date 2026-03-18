@@ -4,10 +4,11 @@
  */
 
 import React, { useState } from 'react';
-import { Gamepad2, X, Maximize2, Search, Play, Music, BookOpen, Home } from 'lucide-react';
+import { Gamepad2, X, Maximize2, Search, Play, Music, BookOpen, Home, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import MusicSection from './components/MusicSection';
 import MangaSection from './components/MangaSection';
+import ProxySection from './components/ProxySection';
 import gamesData from './games.json';
 
 interface Game {
@@ -17,7 +18,7 @@ interface Game {
   url: string;
 }
 
-type Tab = 'home' | 'manga' | 'music';
+type Tab = 'home' | 'manga' | 'music' | 'proxy';
 
 export default function App() {
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
@@ -80,6 +81,13 @@ export default function App() {
               >
                 <Music className="w-4 h-4" />
                 <span>Music</span>
+              </button>
+              <button 
+                onClick={() => setActiveTab('proxy')}
+                className={`flex items-center gap-2 transition-colors ${activeTab === 'proxy' ? 'text-blue-500' : 'text-white/60 hover:text-white'}`}
+              >
+                <Globe className="w-4 h-4" />
+                <span>Proxy</span>
               </button>
             </div>
           </div>
@@ -192,6 +200,18 @@ export default function App() {
               className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"
             >
               <MangaSection />
+            </motion.div>
+          )}
+
+          {activeTab === 'proxy' && (
+            <motion.div
+              key="proxy"
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -20 }}
+              className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"
+            >
+              <ProxySection />
             </motion.div>
           )}
         </AnimatePresence>
