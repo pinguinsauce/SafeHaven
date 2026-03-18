@@ -27,7 +27,7 @@ export default function App() {
                 <Gamepad2 className="w-6 h-6 text-black" />
               </div>
               <h1 className="text-xl font-bold tracking-tight hidden sm:block uppercase">
-                Safe<span className="text-blue-500">haven</span>
+                safe<span className="text-blue-500">haven</span>
               </h1>
             </div>
 
@@ -215,7 +215,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-2 mb-6">
             <Gamepad2 className="w-5 h-5 text-blue-500" />
-            <span className="font-bold tracking-widest text-sm uppercase">Safehaven</span>
+            <span className="font-bold tracking-widest text-sm uppercase">safehaven</span>
           </div>
           <p className="text-white/40 text-sm max-w-md mx-auto leading-relaxed">
             A curated collection of web games for your entertainment. 
